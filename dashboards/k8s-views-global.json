@@ -2917,8 +2917,7 @@
         "name": "cluster",
         "options": [],
         "query": {
-          "qryType": 1,
-          "query": "label_values(kube_node_info,cluster=\"$cluster\")",
+          "query": "label_values(kube_node_info,cluster)",
           "refId": "PrometheusVariableQueryEditor-VariableQuery"
         },
         "refresh": 1,
