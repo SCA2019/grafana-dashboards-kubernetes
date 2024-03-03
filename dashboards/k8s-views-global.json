@@ -2893,8 +2893,8 @@
           "value": ""
         },
         "hide": 0,
-        "includeAll": false,
-        "multi": false,
+        "includeAll": true,
+        "multi": true,
         "name": "datasource",
         "options": [],
         "query": "prometheus",
@@ -2912,8 +2912,8 @@
         },
         "definition": "label_values(kube_node_info,cluster)",
         "hide": 0,
-        "includeAll": false,
-        "multi": false,
+        "includeAll": true,
+        "multi": true,
         "name": "cluster",
         "options": [],
         "query": {
