@@ -2912,13 +2912,13 @@
         },
         "definition": "label_values(kube_node_info,cluster)",
         "hide": 0,
-        "includeAll": false,
+        "includeAll": true,
         "multi": true,
         "name": "cluster",
         "options": [],
         "query": {
           "qryType": 1,
-          "query": "label_values(kube_node_info,cluster)",
+          "query": "label_values(kube_node_info,cluster=\"$cluster\")",
           "refId": "PrometheusVariableQueryEditor-VariableQuery"
         },
         "refresh": 1,
