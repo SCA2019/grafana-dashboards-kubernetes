@@ -2912,7 +2912,7 @@
         },
         "definition": "label_values(kube_node_info,cluster)",
         "hide": 0,
-        "includeAll": true,
+        "includeAll": false,
         "multi": true,
         "name": "cluster",
         "options": [],
